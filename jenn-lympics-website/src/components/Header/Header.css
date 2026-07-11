@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+
+  z-index: 999;
+
+  background: white;
+
+  transition:
+    box-shadow .25s ease,
+    background .25s ease;
+}
+
+.header.shadow {
+  box-shadow:
+    0 8px 24px rgba(0,0,0,.08);
+}
+
+.header-container {
+
+  max-width: 1200px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 18px 32px;
+}
+
+.logo img {
+  height: 70px;
+  width: auto;
+  display: block;
+}
+.menu-button {
+
+  display: none;
+
+  background: none;
+  border: none;
+
+  cursor: pointer;
+
+  font-size: 2rem;
+
+  color: #333;
+
+  transition: transform .2s;
+}
+
+.menu-button:hover {
+  transform: scale(1.1);
+}
+
+.nav {
+
+  display: flex;
+
+  gap: 2.5rem;
+
+  align-items: center;
+}
+
+.nav a {
+
+  position: relative;
+
+  text-decoration: none;
+
+  color: #222;
+
+  font-weight: 600;
+
+  transition: color .2s;
+}
+
+.nav a::after {
+
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  bottom: -8px;
+
+  width: 0;
+
+  height: 2px;
+
+  background: #d9d9d9;
+
+  transition: width .25s;
+}
+
+.nav a:hover {
+  color: #d9d9d9;
+}
+
+.nav a:hover::after {
+  width: 100%;
+}
+
+.nav a.active {
+  color: #d9d9d9;
+}
+
+.nav a.active::after {
+  width: 100%;
+}
+
+.nav a:focus-visible,
+.menu-button:focus-visible {
+
+  outline: 3px solid #1b74e4;
+  outline-offset: 4px;
+  border-radius: 6px;
+}
+
+/* ---------- Mobile ---------- */
+
+@media (max-width:768px) {
+
+  .menu-button {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav {
+
+    position: absolute;
+
+    left: 0;
+    top: 100%;
+
+    width: 100%;
+
+    background: white;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 0;
+
+    overflow: hidden;
+
+    max-height: 0;
+
+    transition:
+      max-height .35s ease,
+      padding .35s ease,
+      box-shadow .35s ease;
+
+    padding: 0;
+  }
+
+  .nav.open {
+
+    max-height: 350px;
+
+    padding: 1rem 0;
+
+    box-shadow:
+      0 10px 25px rgba(0,0,0,.08);
+  }
+
+  .nav a {
+
+    width: 100%;
+
+    padding: 18px 30px;
+  }
+
+  .nav a::after {
+    display: none;
+  }
+
+}
