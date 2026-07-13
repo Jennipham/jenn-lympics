@@ -1,5 +1,5 @@
 import "./Faq.css";
-import FaqItem from "./FAQItem";
+import FaqItem from "./FaqItem";
 import { faqs } from "./faqs";
 
 export default function FaqSection() {
