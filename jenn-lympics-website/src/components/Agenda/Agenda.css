@@ -1,0 +1,350 @@
+
+.agenda {
+    max-width: 1300px;
+    margin: 100px auto;
+    padding: 0 32px;
+}
+
+.agenda-tag {
+    color: #36B44A;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.agenda h1 {
+    text-align: center;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    color: #16233C;
+    margin-bottom: 18px;
+}
+
+.agenda-subtitle {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    color: #667085;
+    line-height: 1.7;
+    font-size: 1.15rem;
+    margin-bottom: 80px;
+}
+
+/* ---------- Timeline ---------- */
+
+.timeline {
+    position: relative;
+}
+
+.timeline-row {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+/* ---------- Left Timeline ---------- */
+
+.timeline-marker {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timeline-circle {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 1.2rem;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,.12);
+}
+
+.timeline-marker span {
+    margin-top: 18px;
+    font-weight: 700;
+    color: #344054;
+}
+
+.timeline-line {
+    width: 3px;
+    flex: 1;
+    background: #E5E7EB;
+    margin-top: 24px;
+}
+
+.timeline-row:last-child .timeline-line {
+    display: none;
+}
+
+/* ---------- Event Card ---------- */
+
+.event-card {
+    position: relative;
+
+    background: rgba(255,255,255,.85);
+
+    backdrop-filter: blur(20px);
+
+    border-radius: 28px;
+
+    padding: 40px;
+
+    display: grid;
+
+    grid-template-columns: 90px 1fr 420px;
+
+    gap: 32px;
+
+    align-items: start;
+
+    box-shadow:
+        0 18px 45px rgba(0,0,0,.08);
+
+    transition:
+        transform .3s ease,
+        box-shadow .3s ease;
+}
+
+.event-card:hover {
+
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 30px 60px rgba(0,0,0,.12);
+}
+
+
+.event-icon {
+
+    width: 80px;
+    height: 80px;
+
+    border-radius: 22px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2.2rem;
+}
+
+
+.event-main h2 {
+
+    font-size: 2rem;
+
+    color: #16233C;
+
+    margin-bottom: 16px;
+}
+
+.event-main p {
+
+    color: #667085;
+
+    line-height: 1.7;
+
+}
+
+
+.event-info {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 26px;
+
+    position: relative;
+
+    margin-top: 15px;
+
+}
+
+.event-info h4 {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+
+    color: #98A2B3;
+
+    text-transform: uppercase;
+
+    letter-spacing: 1px;
+
+    font-size: .82rem;
+
+    margin-bottom: 10px;
+}
+
+.event-info h4 svg {
+    font-size: 1rem;
+}
+
+.event-info strong {
+
+    display: block;
+
+    color: #16233C;
+
+    font-size: 1.1rem;
+
+    margin-bottom: 8px;
+}
+
+.event-info p {
+
+    color: #667085;
+
+    line-height: 1.6;
+}
+
+
+.event-card::before {
+
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    top: 0;
+
+    width: 6px;
+    height: 100%;
+
+    border-radius: 28px 0 0 28px;
+
+    background: linear-gradient(
+        to bottom,
+        #2563EB,
+        #36B44A
+    );
+
+    opacity: .12;
+}
+
+
+@media (max-width:1100px){
+
+.event-card{
+
+grid-template-columns:80px 1fr;
+
+}
+
+.event-info{
+
+grid-column:1 / -1;
+
+margin-top:20px;
+
+display:grid;
+
+grid-template-columns:repeat(3,1fr);
+
+}
+
+}
+
+@media (max-width:850px){
+
+.timeline-row{
+
+grid-template-columns:1fr;
+
+gap:20px;
+
+}
+
+.timeline-marker{
+
+flex-direction:row;
+
+justify-content:flex-start;
+
+gap:18px;
+
+}
+
+.timeline-line{
+
+display:none;
+
+}
+
+.event-card{
+
+grid-template-columns:70px 1fr;
+
+padding:30px;
+
+}
+
+.event-icon{
+
+width:70px;
+height:70px;
+
+font-size:2rem;
+
+}
+
+.event-main h2{
+
+font-size:1.7rem;
+
+}
+
+.event-info{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+@media (max-width:600px){
+
+.agenda{
+
+padding:0 18px;
+
+margin:70px auto;
+
+}
+
+.event-card{
+
+padding:24px;
+
+grid-template-columns:1fr;
+
+}
+
+.event-icon{
+
+margin-bottom:10px;
+
+}
+
+.event-main h2{
+
+font-size:1.5rem;
+
+}
+
+}

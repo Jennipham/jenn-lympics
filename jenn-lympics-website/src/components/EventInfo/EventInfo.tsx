@@ -10,13 +10,13 @@ export default function EventInfo() {
 
     return (
 
-        <section className="event-info">
+        <section className="home-event-info">
 
-            <div className="event-grid">
+            <div className="home-event-grid">
 
-                <div className="event-card">
+                <div className="home-event-card">
 
-                    <div className="date-icon">
+                    <div className="home-date-icon">
                         <HiCalendarDays />
                     </div>
 
@@ -28,9 +28,9 @@ export default function EventInfo() {
 
                 </div>
 
-                <div className="event-card">
+                <div className="home-event-card">
 
-                    <div className="time-icon">
+                    <div className="home-time-icon">
                         <HiClock />
                     </div>
 
@@ -42,9 +42,9 @@ export default function EventInfo() {
 
                 </div>
 
-                <div className="event-card">
+                <div className="home-event-card">
 
-                    <div className="venue-icon">
+                    <div className="home-venue-icon">
                         <HiMapPin />
                     </div>
 
@@ -65,9 +65,9 @@ export default function EventInfo() {
 
                 </div>
 
-                <div className="event-card">
+                <div className="home-event-card">
 
-                    <div className="teams-icon">
+                    <div className="home-teams-icon">
                         <HiUserGroup />
                     </div>
 

@@ -1,4 +1,4 @@
-.event-info {
+.home-event-info {
 
     margin-top: -110px;
 
@@ -9,7 +9,7 @@
     padding: 0 32px 80px;
 }
 
-.event-grid {
+.home-event-grid {
 
     max-width: 1200px;
 
@@ -22,7 +22,7 @@
     gap: 24px;
 }
 
-.event-card {
+.home-event-card {
 
     background: rgba(255,255,255,.82);
 
@@ -38,7 +38,7 @@
     transition: .3s;
 }
 
-.event-card:hover{
+.home-event-card:hover{
 
     transform: translateY(-8px);
 
@@ -46,7 +46,7 @@
         0 30px 60px rgba(0,0,0,.12);
 }
 
-.date-icon{
+.home-date-icon{
 
     width:60px;
     height:60px;
@@ -67,7 +67,7 @@
     margin-bottom:24px;
 }
 
-.time-icon{
+.home-time-icon{
 
     width:60px;
     height:60px;
@@ -88,7 +88,7 @@
     margin-bottom:24px;
 }
 
-.venue-icon{
+.home-venue-icon{
 
     width:60px;
     height:60px;
@@ -109,7 +109,7 @@
     margin-bottom:24px;
 }
 
-.teams-icon{
+.home-teams-icon{
 
     width:60px;
     height:60px;
@@ -130,7 +130,7 @@
     margin-bottom:24px;
 }
 
-.event-card h3{
+.home-event-card h3{
 
     color:#6B7280;
 
@@ -143,7 +143,7 @@
     margin-bottom:12px;
 }
 
-.event-card p{
+.home-event-card p{
 
     font-size:1.4rem;
 
@@ -154,14 +154,14 @@
     margin-bottom:8px;
 }
 
-.event-card span{
+.home-event-card span{
 
     color:#6B7280;
 }
 
 @media(max-width:1000px){
 
-.event-grid{
+.home-event-grid{
 
 grid-template-columns:repeat(2,1fr);
 
@@ -171,12 +171,12 @@ grid-template-columns:repeat(2,1fr);
 
 @media(max-width:650px){
 
-.event-info{
+.home-event-info{
 
 margin-top:-60px;
 }
 
-.event-grid{
+.home-event-grid{
 
 grid-template-columns:1fr;
 
@@ -184,19 +184,19 @@ grid-template-columns:1fr;
 
 }
 
-.venue-link {
+.home-venue-link {
     color: inherit;
     text-decoration: underline;
     text-decoration-color: transparent;
     transition: color 0.2s ease, text-decoration-color 0.2s ease;
 }
 
-.venue-link:hover {
+.home-venue-link:hover {
     color: #ff84c3;
     text-decoration-color: #ff84c3;
 }
 
-.venue-link:focus-visible {
+.home-venue-link:focus-visible {
     outline: 2px solid #ff84c3;
     outline-offset: 2px;
     border-radius: 4px;
