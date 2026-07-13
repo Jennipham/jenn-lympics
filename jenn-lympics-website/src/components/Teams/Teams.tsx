@@ -10,7 +10,8 @@ export default function Teams() {
                 The Teams
             </h1>
             <p className="teams-subtitle">
-                Teams will be randomly generated with consideration to make the teams as fair as possible (Although it's obvious Jenn's team will win!)
+                Teams will be randomly generated with consideration to make the teams as fair as possible 
+                (Although it's obvious Jenn's team will win!)
             </p>
 
             <div className="teams-grid">
