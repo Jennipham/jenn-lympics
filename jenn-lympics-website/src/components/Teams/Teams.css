@@ -1,3 +1,9 @@
+.teams-title {
+    text-align: center;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    color: #16233C;
+    margin-bottom: 18px;
+}
 .teams-info {
 
     margin-top: -110px;
@@ -147,4 +153,14 @@ grid-template-columns:1fr;
 .yellow-teams-name,
 .teams-icon.yellow {
     color: #f5d85b;
+}
+
+.teams-subtitle {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    color: #667085;
+    line-height: 1.7;
+    font-size: 1.15rem;
+    margin-bottom: 80px;
 }

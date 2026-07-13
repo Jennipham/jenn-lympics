@@ -147,7 +147,7 @@ export const events = [
         title: "Awards Ceremony",
 
         description:
-            "Prizes will be given to the winning team - as well as a few honorary awards!",
+            "Prizes will be given to the winning team (as well as a few honorary awards!)",
 
         location: "Crystal Palace Park",
 
