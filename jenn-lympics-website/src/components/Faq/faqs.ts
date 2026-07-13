@@ -29,4 +29,9 @@ export const faqs = [
         answer:
             "Snacks and drinks will be provided. Please let me know beforehand if you have any dietary requirements."
     },
+        {
+        question: "Will there be prizes?",
+        answer:
+            "Yes! Medals will be awarded to the winning team, and there will also be honorary awards for specific players from other teams. "
+    },
 ];
