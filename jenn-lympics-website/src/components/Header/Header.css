@@ -48,7 +48,7 @@
 
   font-size: 2rem;
 
-  color: #333;
+  color: #00b7ff;
 
   transition: transform .2s;
 }
@@ -72,7 +72,7 @@
 
   text-decoration: none;
 
-  color: #222;
+  color: #000000;
 
   font-weight: 600;
 
@@ -92,13 +92,13 @@
 
   height: 2px;
 
-  background: #d9d9d9;
+  background: #00b7ff;
 
   transition: width .25s;
 }
 
 .nav a:hover {
-  color: #d9d9d9;
+  color: #00b7ff;
 }
 
 .nav a:hover::after {
@@ -106,7 +106,7 @@
 }
 
 .nav a.active {
-  color: #d9d9d9;
+  color: #00b7ff;
 }
 
 .nav a.active::after {
