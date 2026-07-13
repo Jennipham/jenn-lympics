@@ -5,7 +5,8 @@ import { RiTeamFill } from "react-icons/ri";
 export default function Teams() {
 
     return (
-        <>
+        <section className="agenda">
+
             <h1 className="teams-title">
                 The Teams
             </h1>
@@ -52,7 +53,7 @@ export default function Teams() {
                     <span>Full List TBC</span>
                 </div>
             </div>
-        </>
+        </section>
 
     );
 
