@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Home from "./pages/Home/Home";
 import Agenda from "./pages/Home/Agenda";
 import Footer from "./components/Footer/Footer";
+import TeamsPage from "./pages/Home/Teams";
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/agenda" element={<Agenda />} />
-        <Route path="/teams" element={<h1>Teams</h1>} />
+        <Route path="/teams" element={<TeamsPage />} />
         <Route path="/faq" element={<h1>FAQ</h1>} />
       </Routes>
       <Footer />

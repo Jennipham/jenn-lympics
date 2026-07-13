@@ -17,7 +17,7 @@ export const events = [
         title: "Registration",
 
         description: 
-            "Meet your teams and assign captains.",
+            "Meet your teams and assign captains. Each player will be given a coloured arm band.",
 
         location: "Crystal Palace National Sports Centre Entrance",
 
