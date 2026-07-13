@@ -1,5 +1,6 @@
 import "./Hero.css";
 import racing from "../../assets/racing.jpg";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -30,15 +31,13 @@ export default function Hero() {
         </p>
 
         <div className="hero-buttons">
-
-          <button className="primary">
+            <Link to="/agenda" className="primary">
             View Agenda
-          </button>
-
-          <button className="secondary">
+            </Link>
+            
+            <Link to="/teams" className="secondary">
             The Teams
-          </button>
-
+            </Link>
         </div>
 
       </div>
