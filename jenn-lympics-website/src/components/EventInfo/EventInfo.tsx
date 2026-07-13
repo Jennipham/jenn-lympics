@@ -55,7 +55,7 @@ export default function EventInfo() {
                          href="https://www.google.com/maps/search/?api=1&query=Crystal+Palace+National+Sports+Centre+SE19+2BB"
                          target="_blank"
                          rel="noopener noreferrer"
-                         className="venue-link"
+                         className="home-venue-link"
                         >
                         Crystal Palace National Sports Centre
                         </a>
