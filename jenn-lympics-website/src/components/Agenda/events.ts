@@ -1,6 +1,4 @@
 import {
-    HiOutlineBolt,
-    HiOutlineSparkles,
     HiOutlineTrophy,
     HiOutlineMapPin,
     HiOutlineClock
