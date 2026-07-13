@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home";
 import Agenda from "./pages/Home/Agenda";
 import Footer from "./components/Footer/Footer";
 import TeamsPage from "./pages/Home/Teams";
+import Faq from "./pages/Home/Faq";
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/agenda" element={<Agenda />} />
         <Route path="/teams" element={<TeamsPage />} />
-        <Route path="/faq" element={<h1>FAQ</h1>} />
+        <Route path="/faq" element={<Faq />} />
       </Routes>
       <Footer />
       </>
