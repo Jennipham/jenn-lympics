@@ -133,7 +133,33 @@ grid-template-columns:1fr;
     display: block;
 }
 
-/* Team colours */
+.teams-card.blue p {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #00b7ff;
+}
+
+.teams-card.green p {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #bdeda8;
+}
+
+.teams-card.pink p {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ff84c3;
+}
+
+.teams-card.yellow p {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #f5d85b;
+}
 
 .blue-teams-name,
 .teams-icon.blue {

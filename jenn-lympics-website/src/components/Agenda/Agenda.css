@@ -31,7 +31,6 @@
     margin-bottom: 80px;
 }
 
-/* ---------- Timeline ---------- */
 
 .timeline {
     position: relative;
@@ -44,7 +43,6 @@
     margin-bottom: 60px;
 }
 
-/* ---------- Left Timeline ---------- */
 
 .timeline-marker {
     position: relative;
@@ -87,7 +85,6 @@
     display: none;
 }
 
-/* ---------- Event Card ---------- */
 
 .event-card {
     position: relative;
@@ -332,12 +329,6 @@ margin:70px auto;
 padding:24px;
 
 grid-template-columns:1fr;
-
-}
-
-.event-icon{
-
-margin-bottom:10px;
 
 }
 
