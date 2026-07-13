@@ -18,7 +18,7 @@ export default function AgendaTimeline() {
             </h1>
 
             <p className="agenda-subtitle">
-                 Please be punctual as some events will be are limited to booked times. Before each event, there will be a mini team challenge. 
+                 Please be punctual as some events will be limited to booking times. Before each event, there will also be a mini team challenge. 
             </p>
             <div className="timeline">
 
