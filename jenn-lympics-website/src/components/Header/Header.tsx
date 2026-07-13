@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { HiBars3, HiXMark } from "react-icons/hi2";
-import Logo from "../../assets/Logo.png";
+import Logo from "../../assets/logo.png";
 import "./Header.css";
 
 export default function Header() {
