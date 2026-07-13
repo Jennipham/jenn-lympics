@@ -6,7 +6,6 @@
     overflow: hidden;
 }
 
-/* Background image */
 
 .hero-image {
     position: absolute;
@@ -53,7 +52,7 @@
     flex-direction: column;
     justify-content: center;
 
-    padding: 0 60px;
+    padding: 0px 60px 100px;
 }
 
 .hero-tag {
@@ -130,6 +129,7 @@
     font-weight: 700;
 
     transition: .25s;
+
 }
 
 .primary {

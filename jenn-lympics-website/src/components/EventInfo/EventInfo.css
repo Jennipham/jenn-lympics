@@ -1,0 +1,203 @@
+.event-info {
+
+    margin-top: -110px;
+
+    position: relative;
+
+    z-index: 10;
+
+    padding: 0 32px 80px;
+}
+
+.event-grid {
+
+    max-width: 1200px;
+
+    margin: auto;
+
+    display: grid;
+
+    grid-template-columns: repeat(4,1fr);
+
+    gap: 24px;
+}
+
+.event-card {
+
+    background: rgba(255,255,255,.82);
+
+    backdrop-filter: blur(18px);
+
+    border-radius: 22px;
+
+    padding: 36px;
+
+    box-shadow:
+        0 20px 45px rgba(0,0,0,.08);
+
+    transition: .3s;
+}
+
+.event-card:hover{
+
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 30px 60px rgba(0,0,0,.12);
+}
+
+.date-icon{
+
+    width:60px;
+    height:60px;
+
+    border-radius:16px;
+
+    background:#EAF3FF;
+
+    color:#00b7ff;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    font-size:30px;
+
+    margin-bottom:24px;
+}
+
+.time-icon{
+
+    width:60px;
+    height:60px;
+
+    border-radius:16px;
+
+    background:#EAF3FF;
+
+    color:#bdeda8;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    font-size:30px;
+
+    margin-bottom:24px;
+}
+
+.venue-icon{
+
+    width:60px;
+    height:60px;
+
+    border-radius:16px;
+
+    background:#EAF3FF;
+
+    color:#ff84c3;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    font-size:30px;
+
+    margin-bottom:24px;
+}
+
+.teams-icon{
+
+    width:60px;
+    height:60px;
+
+    border-radius:16px;
+
+    background:#EAF3FF;
+
+    color:#f5c400;
+
+    display:flex;
+
+    align-items:center;
+    justify-content:center;
+
+    font-size:30px;
+
+    margin-bottom:24px;
+}
+
+.event-card h3{
+
+    color:#6B7280;
+
+    font-size:.9rem;
+
+    text-transform:uppercase;
+
+    letter-spacing:1px;
+
+    margin-bottom:12px;
+}
+
+.event-card p{
+
+    font-size:1.4rem;
+
+    font-weight:700;
+
+    color:#1F2937;
+
+    margin-bottom:8px;
+}
+
+.event-card span{
+
+    color:#6B7280;
+}
+
+@media(max-width:1000px){
+
+.event-grid{
+
+grid-template-columns:repeat(2,1fr);
+
+}
+
+}
+
+@media(max-width:650px){
+
+.event-info{
+
+margin-top:-60px;
+}
+
+.event-grid{
+
+grid-template-columns:1fr;
+
+}
+
+}
+
+.venue-link {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.venue-link:hover {
+    color: #ff84c3;
+    text-decoration-color: #ff84c3;
+}
+
+.venue-link:focus-visible {
+    outline: 2px solid #ff84c3;
+    outline-offset: 2px;
+    border-radius: 4px;
+}
