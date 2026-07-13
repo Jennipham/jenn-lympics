@@ -1,6 +1,5 @@
-import "./FAQ.css";
-
-import FAQItem from "./FAQItem";
+import "./Faq.css";
+import FaqItem from "./FAQItem";
 import { faqs } from "./faqs";
 
 export default function FaqSection() {
@@ -23,7 +22,7 @@ export default function FaqSection() {
 
                 {faqs.map((faq) => (
 
-                    <FAQItem
+                    <FaqItem
                         key={faq.question}
                         question={faq.question}
                         answer={faq.answer}
