@@ -1,5 +1,5 @@
 import AgendaTimeline from "../../components/Agenda/AgendaTimeline";
-import ScrollToTopButton from "../../components/Utility/ScrollToTopButton/ScrollToTopButton";
+import ScrollToTopButton from "../../components/Utility/ScrollToTop/ScrollToTopButton";
 
 export default function Agenda() {
 

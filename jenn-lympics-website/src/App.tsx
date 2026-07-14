@@ -5,11 +5,13 @@ import Agenda from "./pages/Home/Agenda";
 import Footer from "./components/Footer/Footer";
 import TeamsPage from "./pages/Home/Teams";
 import Faq from "./pages/Home/Faq";
+import ScrollToTop from "./components/Utility/ScrollToTop/ScrollToTop";
 
 function App() {
   return (
     <>
       <Header />
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/agenda" element={<Agenda />} />

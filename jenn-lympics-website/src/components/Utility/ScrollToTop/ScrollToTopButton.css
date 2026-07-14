@@ -1,0 +1,50 @@
+.scroll-to-top {
+    position: fixed;
+    bottom: 32px;
+    right: 32px;
+
+    width: 56px;
+    height: 56px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+    border-radius: 50%;
+
+    background: #00b7ff;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    color: white;
+
+    cursor: pointer;
+    z-index: 1000;
+
+    
+    animation: fadeInUp .3s ease-out;
+    transition: transform .25s ease, background .25s ease, opacity .25s ease;
+
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-to-top:hover {
+    background: #00b7ff;
+    transform: translateY(-4px);
+}
+
+.scroll-to-top svg {
+    font-size: 1.8rem;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(12px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
