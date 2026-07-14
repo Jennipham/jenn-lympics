@@ -10,9 +10,10 @@ export default function Teams() {
         { name: "Ines", paid: false },
         { name: "Harry", paid: false },
         { name: "Sami", paid: false },
-        { name: "Adama", paid: false },
+        { name: "Adama", paid: true },
         { name: "Khalid", paid: false },
         { name: "Kieran", paid: false },
+        { name: "Aswini", paid: false },
     ];
 
     return (
