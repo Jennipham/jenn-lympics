@@ -7,17 +7,17 @@ export const faqs = [
     {
         question: "What should I bring?",
         answer:
-            "There isn't anything in particular you need to bring but it would be good to have: water, sunscreen, picnic blankets, portable fans, and snacks & drinks to share."
+            "There isn't anything in particular you need to bring but it would be good to have: water, sunscreen, picnic blankets and portable fans."
     },
     {
         question: "How are teams chosen?",
         answer:
-            "Teams will be randomly allocated before the event and will be displayed on the Teams page."
+            "Teams will be randomly allocated before the event and will be listed on the Teams page."
     },
     {
         question: "How much to take part?",
         answer:
-            "I'll have a better idea of costs once I know how many people are taking part. It shouldn't exceed £10pp though."
+            "To cover the costs of court bookings, equipment, prizes, and food & drinks, I will be asking for a £10 contribution fee per person."
     },
     {
         question: "Where can I park?",
@@ -27,7 +27,7 @@ export const faqs = [
     {
         question: "Will food be provided?",
         answer:
-            "Snacks and drinks will be provided. Please let me know beforehand if you have any dietary requirements."
+            "Yes - Snacks, food and drinks will be provided. Please let me know beforehand if you have any dietary requirements."
     },
         {
         question: "Will there be prizes?",
