@@ -97,7 +97,7 @@ export const events = [
         title: "Lunch",
 
         description:
-            "We will have a picnic where snacks and drinks will be provided.",
+            "We will have a picnic where snacks, food and drinks will be provided but feel free to bring stuff too!",
 
         location: "Crystal Palace Park",
 
@@ -151,7 +151,7 @@ export const events = [
         title: "Awards Ceremony",
 
         description:
-            "Prizes will be given to the winning team (as well as a few honorary awards!)",
+            "Prizes will be given to the winning team (as well as a few special awards!)",
 
         location: "Crystal Palace Park",
 
