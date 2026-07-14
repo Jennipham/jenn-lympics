@@ -75,7 +75,7 @@ export default function EventInfo() {
 
                     <p>4 Teams</p>
 
-                    <span>24 Players</span>
+                    <span>24-28 Players</span>
 
                 </div>
 
