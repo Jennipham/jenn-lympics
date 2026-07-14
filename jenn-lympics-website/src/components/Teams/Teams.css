@@ -214,6 +214,7 @@ grid-template-columns:1fr;
     backdrop-filter: blur(18px);
     border-radius: 22px;
     box-shadow: 0 20px 45px rgba(0,0,0,.08);
+    transition: .3s;
 }
 
 .players-section h2 {
@@ -230,6 +231,15 @@ grid-template-columns:1fr;
     justify-content: center;
     align-items: center;
 }
+
+.players-section:hover{
+
+    transform: translateY(-8px);
+
+    box-shadow:
+        0 30px 60px rgba(0,0,0,.12);
+}
+
 
 .player-pill {
     background: #f5f7fb;
