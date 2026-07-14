@@ -72,7 +72,7 @@ export const events = [
         challenge: "Tug of War",
 
         challengeDescription:
-            "Winning team chooses which side of the court they will play on.",
+            "Winning team chooses which side of the court they will play on and will serve first.",
 
         location: "Crystal Palace Park",
 
