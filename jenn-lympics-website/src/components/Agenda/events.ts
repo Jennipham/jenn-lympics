@@ -86,7 +86,9 @@ export const events = [
 
         timeIcon: HiOutlineClock,
 
-        type: "challenge"
+        type: "challenge",
+
+        rulesLink: "https://www.olympics.com/en/news/how-to-play-volleyball-rules-game-court-about-match-set-smash-spike"
 
     },
     {
@@ -137,7 +139,9 @@ export const events = [
 
         timeIcon: HiOutlineClock,
 
-        type: "challenge"
+        type: "challenge",
+
+        rulesLink: "https://ressp.co.uk/wp-content/uploads/2021/04/rounders-rules.pdf"
 
     },
 

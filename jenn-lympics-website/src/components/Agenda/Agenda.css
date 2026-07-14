@@ -339,3 +339,33 @@ font-size:1.5rem;
 }
 
 }
+
+.event-rules {
+  border: none;
+
+    cursor: pointer;
+
+    padding: 10px 30px;
+
+    font-size: 1rem;
+
+    border-radius: 14px;
+
+    font-weight: 700;
+
+    transition: .25s;
+        
+    text-decoration: none;
+
+    background: #bdeda8;
+
+    color: white;
+
+}
+
+.event-rules:hover {
+
+    transform: translateY(-3px);
+
+    box-shadow: 0 12px 30px rgba(31,107,255,.3);
+}

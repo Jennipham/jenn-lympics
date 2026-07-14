@@ -47,6 +47,15 @@ export default function EventCard({ event }: EventProps) {
                     <h2>{event.title}</h2>
 
                     <p>{event.description}</p>
+                    
+                    {event.challenge && event.rulesLink && (
+                        <button
+                            className="event-rules"
+                            onClick={() => window.open(event.rulesLink, "_blank", "noopener,noreferrer")}
+                        >
+                            View Rules
+                        </button>
+                    )}
 
                 </div>
 
