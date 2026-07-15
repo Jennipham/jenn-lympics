@@ -15,6 +15,7 @@ export default function Teams() {
         { name: "Kieran", paid: false },
         { name: "Aswini", paid: false },
         { name: "Atulya", paid: false },
+        { name: "Tom", paid: false },
     ];
 
     return (
