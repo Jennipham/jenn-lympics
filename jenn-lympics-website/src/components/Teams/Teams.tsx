@@ -16,12 +16,13 @@ export default function Teams() {
         { name: "Aswini", paid: false },
         { name: "Atulya", paid: false },
         { name: "Tom", paid: false },
-        { name: "George", paid: false },
+        { name: "George", paid: true },
         { name: "Arshvir", paid: false },
         { name: "Dylan", paid: false },
         { name: "Will", paid: false },
         { name: "Achish", paid: false },
         { name: "Jonny", paid: false },
+        { name: "Anas", paid: false },
     ];
 
     return (
