@@ -1,31 +1,8 @@
 import "./Teams.css";
 import { RiTeamFill } from "react-icons/ri";
-
+import { players } from "./players";
 
 export default function Teams() {
-
-    const players = [
-        { name: "Jenn", paid: true },
-        { name: "Hannah", paid: false },
-        { name: "Ines", paid: false },
-        { name: "Harry", paid: false },
-        { name: "Sami", paid: false },
-        { name: "Adama", paid: true },
-        { name: "Khalid", paid: false },
-        { name: "Kieran", paid: false },
-        { name: "Aswini", paid: false },
-        { name: "Atulya", paid: false },
-        { name: "Tom", paid: false },
-        { name: "George", paid: true },
-        { name: "Arshvir", paid: false },
-        { name: "Dylan", paid: false },
-        { name: "Will", paid: false },
-        { name: "Achish", paid: false },
-        { name: "Jonny", paid: false },
-        { name: "Anas", paid: false },
-        { name: "Michael", paid: false },
-        { name: "Jeeven", paid: false },
-    ];
 
     return (
         <section className="agenda">
