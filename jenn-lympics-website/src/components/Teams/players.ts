@@ -1,7 +1,7 @@
 export const players = [
         { name: "Jenn", paid: true },
-        { name: "Hannah", paid: false },
-        { name: "Ines", paid: false },
+        { name: "Hannah", paid: true },
+        { name: "Ines", paid: true },
         { name: "Harry", paid: true },
         { name: "Sami", paid: false },
         { name: "Adama", paid: true },
@@ -20,4 +20,5 @@ export const players = [
         { name: "Michael", paid: false },
         { name: "Jeeven", paid: false },
         { name: "Ipek", paid: false },
+        { name: "Michael I", paid: false },
 ];
