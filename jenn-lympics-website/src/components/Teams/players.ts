@@ -21,4 +21,5 @@ export const players = [
         { name: "Jeeven", paid: false },
         { name: "Ipek", paid: false },
         { name: "Michael I", paid: true },
+        { name: "EJ", paid: false },
 ];
