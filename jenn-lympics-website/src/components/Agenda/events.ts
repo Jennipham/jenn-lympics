@@ -13,7 +13,7 @@ import { IoFastFood } from "react-icons/io5";
 export const events = [
     {
         number: "01",
-        time: "TBC",
+        time: "11AM",
         title: "Registration",
 
         description: 
@@ -35,7 +35,7 @@ export const events = [
     },
     {
         number: "02",
-        time: "TBC",
+        time: "12-1PM",
         title: "Relay Race",
 
         description: 
@@ -63,7 +63,7 @@ export const events = [
 
         {
         number: "03",
-        time: "TBC",
+        time: "1-2PM",
         title: "Volleyball",
 
         description:
@@ -93,7 +93,7 @@ export const events = [
     },
     {
         number: "04",
-        time: "TBC",
+        time: "2-3PM",
         title: "Lunch",
 
         description:
@@ -116,7 +116,7 @@ export const events = [
 
     {
         number: "05",
-        time: "TBC",
+        time: "3-4PM",
         title: "Rounders",
 
         description:
@@ -147,7 +147,7 @@ export const events = [
 
         {
         number: "06",
-        time: "TBC",
+        time: "4-4:30PM",
         title: "Awards Ceremony",
 
         description:
