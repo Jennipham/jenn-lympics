@@ -38,8 +38,6 @@ export default function EventInfo() {
 
                     <p>11AM-4:30PM</p>
 
-                    <span>-</span>
-
                 </div>
 
                 <div className="home-event-card">
