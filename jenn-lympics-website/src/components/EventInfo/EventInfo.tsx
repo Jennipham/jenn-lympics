@@ -36,7 +36,7 @@ export default function EventInfo() {
 
                     <h3>Time</h3>
 
-                    <p>TBC</p>
+                    <p>11AM-4:30PM</p>
 
                     <span>-</span>
 
