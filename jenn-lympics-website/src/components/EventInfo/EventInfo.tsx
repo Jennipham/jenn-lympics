@@ -36,7 +36,7 @@ export default function EventInfo() {
 
                     <h3>Time</h3>
 
-                    <p>11AM-4:30PM</p>
+                    <p>11AM-5PM</p>
 
                 </div>
 
