@@ -35,7 +35,7 @@ export const events = [
     },
     {
         number: "02",
-        time: "12-1PM",
+        time: "12-1:30PM",
         title: "Relay Race",
 
         description: 
@@ -63,7 +63,7 @@ export const events = [
 
         {
         number: "03",
-        time: "1-2PM",
+        time: "1:30-2:30PM",
         title: "Volleyball",
 
         description:
@@ -93,7 +93,7 @@ export const events = [
     },
     {
         number: "04",
-        time: "2-3PM",
+        time: "2:30-3:30PM",
         title: "Lunch",
 
         description:
@@ -116,7 +116,7 @@ export const events = [
 
     {
         number: "05",
-        time: "3-4PM",
+        time: "3:30-4:30PM",
         title: "Rounders",
 
         description:
@@ -147,7 +147,7 @@ export const events = [
 
         {
         number: "06",
-        time: "4-4:30PM",
+        time: "4:30-5PM",
         title: "Awards Ceremony",
 
         description:
