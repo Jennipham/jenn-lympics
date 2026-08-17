@@ -60,63 +60,9 @@ export const events = [
 
         type: "challenge"
     },
-
-        {
+    {
         number: "03",
         time: "1:30-2:30PM",
-        title: "Volleyball",
-
-        description:
-            "Round-Robin style tournament of Volleyball.",
-
-        challenge: "Tug of War",
-
-        challengeDescription:
-            "Winning team chooses which side of the court they will play on and will serve first.",
-
-        location: "Crystal Palace Park",
-
-        colour: "#000000",
-
-        icon: FaVolleyball,
-
-        challengeIcon: HiOutlineTrophy,
-
-        locationIcon: HiOutlineMapPin,
-
-        timeIcon: HiOutlineClock,
-
-        type: "challenge",
-
-        rulesLink: "https://www.olympics.com/en/news/how-to-play-volleyball-rules-game-court-about-match-set-smash-spike"
-
-    },
-    {
-        number: "04",
-        time: "2:30-3:30PM",
-        title: "Lunch",
-
-        description:
-            "We will have a picnic where snacks, food and drinks will be provided but feel free to bring stuff too!",
-
-        location: "Crystal Palace Park",
-
-        colour: "#ff84c3",
-
-        icon: IoFastFood,
-
-        challengeIcon: HiOutlineTrophy,
-
-        locationIcon: HiOutlineMapPin,
-
-        timeIcon: HiOutlineClock,
-
-         type: "info"
-    },
-
-    {
-        number: "05",
-        time: "3:30-4:30PM",
         title: "Rounders",
 
         description:
@@ -142,6 +88,61 @@ export const events = [
         type: "challenge",
 
         rulesLink: "https://ressp.co.uk/wp-content/uploads/2021/04/rounders-rules.pdf"
+
+    },
+
+
+       
+    {
+        number: "04",
+        time: "2:30-3:30PM",
+        title: "Lunch",
+
+        description:
+            "We will have a picnic where snacks, food and drinks will be provided but feel free to bring stuff too!",
+
+        location: "Crystal Palace Park",
+
+        colour: "#ff84c3",
+
+        icon: IoFastFood,
+
+        challengeIcon: HiOutlineTrophy,
+
+        locationIcon: HiOutlineMapPin,
+
+        timeIcon: HiOutlineClock,
+
+         type: "info"
+    },
+     {
+        number: "05",
+        time: "3:30-4:30PM",
+        title: "Volleyball",
+
+        description:
+            "Round-Robin style tournament of Volleyball.",
+
+        challenge: "Tug of War",
+
+        challengeDescription:
+            "Winning team chooses which side of the court they will play on and will serve first.",
+
+        location: "Crystal Palace Park",
+
+        colour: "#000000",
+
+        icon: FaVolleyball,
+
+        challengeIcon: HiOutlineTrophy,
+
+        locationIcon: HiOutlineMapPin,
+
+        timeIcon: HiOutlineClock,
+
+        type: "challenge",
+
+        rulesLink: "https://www.olympics.com/en/news/how-to-play-volleyball-rules-game-court-about-match-set-smash-spike"
 
     },
 
