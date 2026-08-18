@@ -20,8 +20,6 @@ export const players = [
         { name: "Tyler", paid: false },
         { name: "Samir", paid: false },
         { name: "Ibrahim", paid: false },
-        { name: "Nith", paid: false },
-        { name: "Hakeem", paid: false },
         { name: "Kaedyn", paid: true },
         { name: "Azziz", paid: true },
         { name: "Amber", paid: true },
