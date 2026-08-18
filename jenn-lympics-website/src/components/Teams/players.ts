@@ -31,4 +31,5 @@ export const players = [
         { name: "Tia", paid: true },
         { name: "Francisco", paid: true },
         { name: "Amelia", paid: false },
+        { name: "Lys", paid: false },
 ];
