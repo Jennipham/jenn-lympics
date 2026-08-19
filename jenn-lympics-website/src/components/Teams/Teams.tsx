@@ -4,6 +4,9 @@ import { players } from "./players";
 
 export default function Teams() {
 
+     const teamPlayers = (team: string) =>
+        players.filter((player) => player.team === team);
+
     return (
         <section className="agenda">
 
@@ -44,13 +47,22 @@ export default function Teams() {
 
             <div className="teams-grid">
 
-                <div className="teams-card blue">
+                         <div className="teams-card blue">
                     <div className="teams-header">
                         <RiTeamFill className="teams-icon blue" />
                         <p className="blue-teams-name">Blue Team</p>
                     </div>
 
-                    <span>Full List TBC</span>
+                    <div className="players-list">
+                        {teamPlayers("blue").map((player) => (
+                            <span
+                                key={player.name}
+                                className={`player-pill ${player.captain ? "captain" : ""}`}
+                            >
+                                {player.captain ? `Captain: ${player.name}` : player.name}
+                            </span>
+                        ))}
+                    </div>
                 </div>
 
                 <div className="teams-card green">
@@ -59,7 +71,16 @@ export default function Teams() {
                         <p className="green-teams-name">Green Team</p>
                     </div>
 
-                    <span>Full List TBC</span>
+                    <div className="players-list">
+                        {teamPlayers("green").map((player) => (
+                            <span
+                                key={player.name}
+                                className={`player-pill ${player.captain ? "captain" : ""}`}
+                            >
+                                {player.captain ? `Captain: ${player.name}` : player.name}
+                            </span>
+                        ))}
+                    </div>
                 </div>
 
                 <div className="teams-card pink">
@@ -68,7 +89,17 @@ export default function Teams() {
                         <p className="pink-teams-name">Pink Team</p>
                     </div>
 
-                    <span>Full List TBC</span>
+                    
+                    <div className="players-list">
+                        {teamPlayers("pink").map((player) => (
+                            <span
+                                key={player.name}
+                                className={`player-pill ${player.captain ? "captain" : ""}`}
+                            >
+                                {player.captain ? `Captain: ${player.name}` : player.name}
+                            </span>
+                        ))}
+                    </div>
                 </div>
 
                 <div className="teams-card yellow">
@@ -77,7 +108,17 @@ export default function Teams() {
                         <p className="yellow-teams-name">Yellow Team</p>
                     </div>
 
-                    <span>Full List TBC</span>
+                    
+                    <div className="players-list">
+                        {teamPlayers("yellow").map((player) => (
+                            <span
+                                key={player.name}
+                                className={`player-pill ${player.captain ? "captain" : ""}`}
+                            >
+                                {player.captain ? `Captain: ${player.name}` : player.name}
+                            </span>
+                        ))}
+                    </div>
                 </div>
             </div>
         </section>
