@@ -57,7 +57,7 @@ export default function Teams() {
                         {teamPlayers("blue").map((player) => (
                             <span
                                 key={player.name}
-                                className={`player-pill ${player.captain ? "captain" : ""}`}
+                                className={`player-pill ${player.captain ? "captain" : "blue"}`}
                             >
                                 {player.captain ? `Captain: ${player.name}` : player.name}
                             </span>
@@ -75,7 +75,7 @@ export default function Teams() {
                         {teamPlayers("green").map((player) => (
                             <span
                                 key={player.name}
-                                className={`player-pill ${player.captain ? "captain" : ""}`}
+                                className={`player-pill ${player.captain ? "captain" : "green"}`}
                             >
                                 {player.captain ? `Captain: ${player.name}` : player.name}
                             </span>
@@ -94,7 +94,7 @@ export default function Teams() {
                         {teamPlayers("pink").map((player) => (
                             <span
                                 key={player.name}
-                                className={`player-pill ${player.captain ? "captain" : ""}`}
+                                className={`player-pill ${player.captain ? "captain" : "pink"}`}
                             >
                                 {player.captain ? `Captain: ${player.name}` : player.name}
                             </span>
@@ -113,7 +113,7 @@ export default function Teams() {
                         {teamPlayers("yellow").map((player) => (
                             <span
                                 key={player.name}
-                                className={`player-pill ${player.captain ? "captain" : ""}`}
+                                className={`player-pill ${player.captain ? "captain" : "yellow"}`}
                             >
                                 {player.captain ? `Captain: ${player.name}` : player.name}
                             </span>
