@@ -309,6 +309,26 @@ grid-template-columns:1fr;
     color: #f3f4f6;
 }
 
+.player-pill.blue {
+    background: #00b7ff;
+    color: #f3f4f6;
+}
+
+.player-pill.green {
+    background: #bdeda8;
+    color: #f3f4f6;
+}
+
+.player-pill.pink {
+    background: #ff84c3;
+    color: #f3f4f6;
+}
+
+.player-pill.yellow {
+    background: #f5d85b;
+    color: #f3f4f6;
+}
+
 .player-pill:hover {
     transform: translateY(-2px);
 }
