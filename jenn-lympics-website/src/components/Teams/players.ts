@@ -29,5 +29,5 @@ export const players = [
         { name: "Amelia", paid: true, team:"yellow" },
         { name: "Lys", paid: true, team:"blue" },
         { name: "Felicity", paid: true, team:"green" },
-        { name: "Ismail", paid: false, team:"green" },
+        { name: "Ismail", paid: true, team:"green" },
 ];
