@@ -8,7 +8,6 @@ export const players = [
         { name: "Adama", paid: true, team:"yellow" },
         { name: "Aswini", paid: true,team:"green" },
         { name: "Tom", paid: true, team:"blue" },
-        { name: "George", paid: true, team:"pink"  },
         { name: "Arshvir", paid: true, team:"green"  },
         { name: "Dylan", paid: true, team:"pink" },
         { name: "Jonathan", paid: true, team:"yellow" },
@@ -30,4 +29,6 @@ export const players = [
         { name: "Lys", paid: true, team:"blue" },
         { name: "Felicity", paid: true, team:"green" },
         { name: "Ismail", paid: true, team:"green" },
+        { name: "Aaron", paid: false, team:"pink" },
+
 ];
