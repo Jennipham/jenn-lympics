@@ -9,7 +9,6 @@ export const players = [
         { name: "Aswini", paid: true,team:"green" },
         { name: "Tom", paid: true, team:"blue" },
         { name: "Arshvir", paid: true, team:"green"  },
-        { name: "Dylan", paid: true, team:"pink" },
         { name: "Jonathan", paid: true, team:"yellow" },
         { name: "Michael", paid: true, team:"blue" },
         { name: "Jeeven", paid: true, team:"blue" },
